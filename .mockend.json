@@ -1,10 +1,10 @@
 {
   "User": {
-    "name": {
+    "company": {
       "string": {}
     },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    "keitou_code": {
+      "regexp": "#[0-9A-Z]{5}"
     },
     "statusMessage": {
       "string": [
