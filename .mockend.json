@@ -29,10 +29,7 @@
     "link": {
       "string": [
         "https://www.google.com/?hl=ja"
-      ],
-    "bugtest": {
-      "regexp": "[1]"
-    }
+      ]
   }
 }
 
