@@ -26,7 +26,7 @@
     "reward": {
       "regexp": "[1-9]{4}"
     },
-    "reward": {
+    "link": {
       "regexp": "https://www.google.com/?hl=ja"
     }
   }
