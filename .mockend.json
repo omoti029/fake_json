@@ -1,4 +1,4 @@
-{{
+{
   "User": {
     "company": {
       "string": [
@@ -21,28 +21,5 @@
       "boolean": {}
     }
   }
-},
-{
-  "resource": {
-    "company": {
-      "string": [
-        "tou_den",
-        "kyu_den",
-        "kan_den",
-        "toyota",
-        "tesra",
-        "mazda",
-        "honda"
-      ]
-    },
-    "keitou_code": {
-      "regexp": "#[0-9A-Z]{5}"
-    },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "isPublic": {
-      "boolean": {}
-    }
-  }
-}}
+}
+
