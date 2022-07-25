@@ -36,7 +36,7 @@
     },
     "CSSTEST": {
       "string": [
-        <div style="font-size:50">"テスト"</div>
+        "テスト"
       ]
     }
   }
