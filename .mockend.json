@@ -27,7 +27,10 @@
       "regexp": "[1-9]{4}"
     },
     "link": {
-      "regexp": "https://www.google.com/?hl=ja"
+      "string": [
+        "regexp": "https://www.google.com/?hl=ja"
+      ]
+
     }
   }
 }
