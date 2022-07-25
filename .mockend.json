@@ -21,7 +21,8 @@
       "boolean": {}
     }
   }
-  
+}
+{
   "resource": {
     "company": {
       "string": [
