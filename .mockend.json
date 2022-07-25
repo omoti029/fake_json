@@ -1,7 +1,15 @@
 {
   "User": {
     "company": {
-      "string": {}
+      "string": [
+        "tou_den",
+        "kyu_den",
+        "kan_den",
+        "toyota",
+        "tesra",
+        "mazda",
+        "honda"
+      ]
     },
     "keitou_code": {
       "regexp": "#[0-9A-Z]{5}"
