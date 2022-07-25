@@ -28,7 +28,7 @@
     },
     "link": {
       "string": [
-        "regexp": "https://www.google.com/?hl=ja"
+        "https://www.google.com/?hl=ja"
       ]
 
     }
