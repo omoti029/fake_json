@@ -30,9 +30,6 @@
       "string": [
         "https://www.google.com/?hl=ja&q=${keitou_code}"
       ]
-    },
-    "bugtest": {
-       "regexp": "[1-2]{1}"
     }
   }
 }
