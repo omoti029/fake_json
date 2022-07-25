@@ -33,6 +33,11 @@
     },
     "bugtest": {
       "regexp": "[1-2]{1}"
+    },
+    "CSSTEST": {
+      "string": [
+        <div style="font-size:50">"テスト"</div>
+      ]
     }
   }
 }
