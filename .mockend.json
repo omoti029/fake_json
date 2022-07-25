@@ -14,7 +14,7 @@
     "keitou_code": {
       "regexp": "[0-9]{1}[A-Z]{1}[0-9]{3}"
     },
-    "DDR": {
+    "DR": {
       "regexp": "[0-9]{2}"
     },
     "error": {
