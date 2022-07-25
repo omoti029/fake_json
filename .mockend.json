@@ -28,9 +28,14 @@
     },
     "link": {
       "string": [
-        "https://www.google.com/?hl=ja"
+        "https://www.google.com/?hl=ja&q=${keitou_code}"
       ]
-    }
+    },
+    "bugtest": {
+      "string": [
+       "regexp": "[1-2]{1}"
+      ]
+    },
   }
 }
 
