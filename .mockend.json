@@ -46,7 +46,7 @@
     }
   },
   
-    "admin": {
+    "Admin": {
     "company": {
       "string": [
         "tou_den",
