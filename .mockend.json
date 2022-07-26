@@ -18,10 +18,10 @@
       "regexp": "[1-9]{2}"
     },
     "error": {
-      "regexp": "[0-9]{2}"
+      "regexp": "[0-9]{1}"
     },
     "warning": {
-      "regexp": "[0-9]{2}"
+      "regexp": "[0-9]{1}"
     },
     "reward": {
       "regexp": "[1-9]{4}"
