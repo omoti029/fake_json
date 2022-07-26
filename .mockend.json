@@ -38,7 +38,12 @@
       "string": [
         "詳細"
       ]
-    }
+    },
+     "Administrator": {
+      "string": [
+        "管理者画面"
+      ]
+    },
   }
 }
 
