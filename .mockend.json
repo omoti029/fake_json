@@ -46,52 +46,13 @@
     }
   },
   
-    "Post": {
-    "company": {
-      "string": [
-        "tou_den",
-        "kyu_den",
-        "kan_den",
-        "toyota",
-        "tesra",
-        "mazda",
-        "honda"
-      ]
-    },
-    "keitou_code": {
-      "regexp": "[0-9]{1}[A-Z]{1}[0-9]{3}"
-    },
-    "DR": {
-      "regexp": "[1-9]{2}"
-    },
-    "error": {
-      "regexp": "[0-9]{1}"
-    },
-    "warning": {
-      "regexp": "[0-9]{1}"
-    },
-    "reward": {
-      "regexp": "[1-9]{4}"
-    },
-    "link": {
-      "string": [
-        "https://www.google.com/?hl=ja&q=${keitou_code}"
-      ]
-    },
-    "bugtest": {
-      "regexp": "[1-2]{1}"
-    },
-    "message": {
-      "string": [
-        "詳細"
-      ]
-    },
+    "Comment": {
      "Administrator": {
       "string": [
         "管理者画面"
       ]
+     }
     }
-  }
 
   
 }
