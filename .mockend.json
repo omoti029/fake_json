@@ -34,9 +34,9 @@
     "bugtest": {
       "regexp": "[1-2]{1}"
     },
-    "CSSTEST": {
+    "message": {
       "string": [
-        "テスト"
+        "詳細画面"
       ]
     }
   }
