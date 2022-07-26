@@ -45,7 +45,8 @@
       ]
     }
   },
-    "User": {
+  
+    "admin": {
     "company": {
       "string": [
         "tou_den",
