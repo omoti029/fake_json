@@ -43,12 +43,6 @@
      "DR_title": {
       "string": ["DR発動振分画面"]
      }
-    },
-  
-    "resource": {
-　　　　"resource_name": {
-    　　  "string":["KINDEN-GROUP-1","KINDEN-GROUP-2","KOKURA-GROUP-1","MHI-GROUP-1","MHI-GROUP-2","ENEOS-GROUP-1","CHUDEN-GROUP-1","CHUDEN-GROUP-2","CHUDEN-GROUP-3","KOGATA-GROUP-1","NEC-GROUP-1","ITOPRO-GROUP-1"]
-　　    }
     }
 
   
