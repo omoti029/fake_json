@@ -1,28 +1,10 @@
 {
   "User": {
     "company": {
-      "string": [
-        "tou_den",
-        "kyu_den",
-        "kan_den",
-        "toyota",
-        "tesra",
-        "mazda",
-        "honda"
-      ]
+      "string": ["tou_den","kyu_den","kan_den","toyota","tesra","mazda","honda"]
     },
     "keitou_code": {
-      "string": [
-        "9Y999",
-        "9Y895",
-        "9Y496",
-        "9B513",
-        "8ZY97",
-        "8ZY96",
-        "8ZY95",
-        "8ZB94",
-        "8ZA93"
-      ]
+      "string":["9Y999","9Y895","9Y496","9B513","8ZY97","8ZY96","8ZY95","8ZB94","8ZA93"]
     },
     "DR": {
       "regexp": "[1-9]{2}"
@@ -48,24 +30,15 @@
       "string": [
         "詳細"
       ]
-    },
-     "Administrator": {
-      "string": [
-        "管理者画面"
-      ]
     }
   },
   
     "Comment": {
      "Administrator": {
-      "string": [
-        "管理者画面"
-      ]
+      "string": ["管理者画面"]
      },
      "DR_title": {
-      "string": [
-        "DR発動振分画面"
-      ]
+      "string": ["DR発動振分画面"]
      }
     }
 
