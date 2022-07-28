@@ -1,9 +1,14 @@
 {
-  "posts":  [
+  "posts": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "json-server",
+      "author": "typicode1"
+    },
+    {
+      "id": 2,
+      "title": "new post",
+      "author": "test"
     }
   ],
   "comments": [
