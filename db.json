@@ -1,9 +1,28 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "keitou_code": "8ZA93",
+      "pattern": ["1":["status": ["DR":"4","error":"1","warning":"3"],"resource":["KINDEN-GROUP-1","KINDEN-GROUP-2","KOKURA-GROUP-1"]],
+                  "2",
+                  "3",
+                  "4"
+                 ]
+    },
+    {
+      "id": 2,
+      "title": "new post",
+      "author": "test"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
