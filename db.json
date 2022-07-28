@@ -1,18 +1,10 @@
 {
-  "posts": [
+  "posts":  [
     {
       "id": 1,
-      "keitou_code": "8ZA93"
-
-      
-    },
-    {
-      "id": 2,
-      "keitou_code": "8ZB94",
-      "resource": ["MHI-GROUP-2","ENEOS-GROUP-1"]
-      
+      "body": "some comment",
+      "postId": 1
     }
-
   ],
   "comments": [
     {
