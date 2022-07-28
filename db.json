@@ -2,12 +2,8 @@
   "posts": [
     {
       "id": 1,
-      "keitou_code": "8ZA93",
-      "pattern": ["1",
-                  "2",
-                  "3",
-                  "4"
-                 ]
+      "keitou_code": "8ZA93"
+
       
     },
     {
