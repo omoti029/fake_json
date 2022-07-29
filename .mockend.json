@@ -20,19 +20,6 @@
     },
     "reward": {
       "regexp": "[1-9]{4}"
-    },
-    "link": {
-      "string": [
-        "https://www.google.com/?hl=ja&q=${keitou_code}"
-      ]
-    },
-    "bugtest": {
-      "regexp": "[1-2]{1}"
-    },
-    "message": {
-      "string": [
-        "詳細"
-      ]
     }
   },
   
@@ -42,6 +29,9 @@
      },
      "DR_title": {
       "string": ["DR発動振分画面"]
+     },
+    "message": {
+      "string": ["詳細"]
      }
     },
   
