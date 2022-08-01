@@ -36,15 +36,6 @@
     "message": {
       "string": ["詳細"]
      }
-    },
-  
-    "9Y999": {
-        "resource": {
-           "string":["KINDEN-GROUP-1","KINDEN-GROUP-2","KOKURA-GROUP-1","MHI-GROUP-1","MHI-GROUP-2","ENEOS-GROUP-1","CHUDEN-GROUP-1","CHUDEN-GROUP-2","CHUDEN-GROUP-3","KOGATA-GROUP-1","NEC-GROUP-1","ITOPRO-GROUP-1"]
-        },
-        "keitou_code": {
-           "string":["9Y999","9Y895","9Y496","9B513","8ZY97","8ZY96","8ZY95","8ZB94","8ZA93"]
-        }
     }
   
 }
