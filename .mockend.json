@@ -1,7 +1,7 @@
 {
   "User": {
     "company": {
-      "string": ["KINDEN-1","KINDEN-2","KOKURA-1","KOKURA-1","MHI-1","MHI-2","ENEOS-1","CHUDEN-1","CHUDEN-2","CHUDEN-3","KOGATA-1","NEC-1","ITOPRO-1"]
+      "string": ["KINDEN-1""]
     },
     "keitou_code": {
       "string":["9Y999","9Y895","9Y496","9B513","8ZY97","8ZY96","8ZY95","8ZB94","8ZA93"]
@@ -23,28 +23,53 @@
     }
   },
   
-    "Comment": {
-     "id": {
-      "string": ["1"]
-     },
-     "Administrator": {
-      "string": ["管理者画面"]
-     },
-     "DR_title": {
-      "string": ["DR発動振分画面"]
-     },
-    "message": {
-      "string": ["詳細"]
-     }
+   "Comment": {
+    "company": {
+      "string": ["KINDEN-2"]
     },
-  
-    "Resource": {
-        "resource": {
-           "string":["KINDEN-GROUP-1","KINDEN-GROUP-2","KOKURA-GROUP-1","MHI-GROUP-1","MHI-GROUP-2","ENEOS-GROUP-1","CHUDEN-GROUP-1","CHUDEN-GROUP-2","CHUDEN-GROUP-3","KOGATA-GROUP-1","NEC-GROUP-1","ITOPRO-GROUP-1"]
-        },
-        "keitou_code": {
-           "string":["9Y999","9Y895","9Y496","9B513","8ZY97","8ZY96","8ZY95","8ZB94","8ZA93"]
-        }
+    "keitou_code": {
+      "string":["9Y999","9Y895","9Y496","9B513","8ZY97","8ZY96","8ZY95","8ZB94","8ZA93"]
+    },
+    "resource": {
+      "string":["KINDEN-GROUP-1","KINDEN-GROUP-2","KOKURA-GROUP-1","MHI-GROUP-1","MHI-GROUP-2","ENEOS-GROUP-1","CHUDEN-GROUP-1","CHUDEN-GROUP-2","CHUDEN-GROUP-3","KOGATA-GROUP-1","NEC-GROUP-1","ITOPRO-GROUP-1"]
+    },
+    "DR": {
+      "regexp": "[1-9]{2}"
+    },
+    "error": {
+      "regexp": "[0-9]{1}"
+    },
+    "warning": {
+      "regexp": "[0-9]{1}"
+    },
+    "reward": {
+      "regexp": "[1-9]{4}"
     }
+   },
+  
+   "Resource": {
+    "company": {
+      "string": ["KINDEN-3"]
+    },
+    "keitou_code": {
+      "string":["9Y999","9Y895","9Y496","9B513","8ZY97","8ZY96","8ZY95","8ZB94","8ZA93"]
+    },
+    "resource": {
+      "string":["KINDEN-GROUP-1","KINDEN-GROUP-2","KOKURA-GROUP-1","MHI-GROUP-1","MHI-GROUP-2","ENEOS-GROUP-1","CHUDEN-GROUP-1","CHUDEN-GROUP-2","CHUDEN-GROUP-3","KOGATA-GROUP-1","NEC-GROUP-1","ITOPRO-GROUP-1"]
+    },
+    "DR": {
+      "regexp": "[1-9]{2}"
+    },
+    "error": {
+      "regexp": "[0-9]{1}"
+    },
+    "warning": {
+      "regexp": "[0-9]{1}"
+    },
+    "reward": {
+      "regexp": "[1-9]{4}"
+    }
+   }
   
 }
+
