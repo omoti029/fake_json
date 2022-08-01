@@ -1,42 +1,155 @@
 {
-  "User": {
-    "company": {
-      "string": ["KINDEN-1","KINDEN-2","KOKURA-1","KOKURA-1","MHI-1","MHI-2","ENEOS-1","CHUDEN-1","CHUDEN-2","CHUDEN-3","KOGATA-1","NEC-1","ITOPRO-1"]
+  "definitions": {
+    "Exposes": {
+      "description": "Modules that should be exposed by this container. When provided, property name is used as public name, otherwise public name is automatically inferred from request.",
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "description": "Modules that should be exposed by this container.",
+            "anyOf": [
+              {
+                "$ref": "#/definitions/ExposesItem"
+              },
+              {
+                "$ref": "#/definitions/ExposesObject"
+              }
+            ]
+          }
+        },
+        {
+          "$ref": "#/definitions/ExposesObject"
+        }
+      ]
     },
-    "keitou_code": {
-      "string":["9Y999","9Y895","9Y496","9B513","8ZY97","8ZY96","8ZY95","8ZB94","8ZA93","Comment"]
+    "ExposesConfig": {
+      "description": "Advanced configuration for modules that should be exposed by this container.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "import": {
+          "description": "Request to a module that should be exposed by this container.",
+          "anyOf": [
+            {
+              "$ref": "#/definitions/ExposesItem"
+            },
+            {
+              "$ref": "#/definitions/ExposesItems"
+            }
+          ]
+        },
+        "name": {
+          "description": "Custom chunk name for the exposed module.",
+          "type": "string"
+        }
+      },
+      "required": ["import"]
     },
-    "resource": {
-      "string":["KINDEN-GROUP-1","KINDEN-GROUP-2","KOKURA-GROUP-1","MHI-GROUP-1","MHI-GROUP-2","ENEOS-GROUP-1","CHUDEN-GROUP-1","CHUDEN-GROUP-2","CHUDEN-GROUP-3","KOGATA-GROUP-1","NEC-GROUP-1","ITOPRO-GROUP-1"]
+    "ExposesItem": {
+      "description": "Module that should be exposed by this container.",
+      "type": "string",
+      "minLength": 1
     },
-    "DR": {
-      "regexp": "[1-9]{2}"
+    "ExposesItems": {
+      "description": "Modules that should be exposed by this container.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/ExposesItem"
+      }
     },
-    "error": {
-      "regexp": "[0-9]{1}"
+    "ExposesObject": {
+      "description": "Modules that should be exposed by this container. Property names are used as public paths.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "Modules that should be exposed by this container.",
+        "anyOf": [
+          {
+            "$ref": "#/definitions/ExposesConfig"
+          },
+          {
+            "$ref": "#/definitions/ExposesItem"
+          },
+          {
+            "$ref": "#/definitions/ExposesItems"
+          }
+        ]
+      }
     },
-    "warning": {
-      "regexp": "[0-9]{1}"
+    "Remotes": {
+      "description": "Container locations and request scopes from which modules should be resolved and loaded at runtime. When provided, property name is used as request scope, otherwise request scope is automatically inferred from container location.",
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "description": "Container locations and request scopes from which modules should be resolved and loaded at runtime.",
+            "anyOf": [
+              {
+                "$ref": "#/definitions/RemotesItem"
+              },
+              {
+                "$ref": "#/definitions/RemotesObject"
+              }
+            ]
+          }
+        },
+        {
+          "$ref": "#/definitions/RemotesObject"
+        }
+      ]
     },
-    "reward": {
-      "regexp": "[1-9]{4}"
+    "RemotesConfig": {
+      "description": "Advanced configuration for container locations from which modules should be resolved and loaded at runtime.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "external": {
+          "description": "Container locations from which modules should be resolved and loaded at runtime.",
+          "anyOf": [
+            {
+              "$ref": "#/definitions/RemotesItem"
+            },
+            {
+              "$ref": "#/definitions/RemotesItems"
+            }
+          ]
+        },
+        "shareScope": {
+          "description": "The name of the share scope shared with this remote.",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["external"]
+    },
+    "RemotesItem": {
+      "description": "Container location from which modules should be resolved and loaded at runtime.",
+      "type": "string",
+      "minLength": 1
+    },
+    "RemotesItems": {
+      "description": "Container locations from which modules should be resolved and loaded at runtime.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/RemotesItem"
+      }
+    },
+    "RemotesObject": {
+      "description": "Container locations from which modules should be resolved and loaded at runtime. Property names are used as request scopes.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "Container locations from which modules should be resolved and loaded at runtime.",
+        "anyOf": [
+          {
+            "$ref": "#/definitions/RemotesConfig"
+          },
+          {
+            "$ref": "#/definitions/RemotesItem"
+          },
+          {
+            "$ref": "#/definitions/RemotesItems"
+          }
+        ]
+      }
     }
-  },
-  
-    "Comment": {
-     "id": {
-      "string": ["1"]
-     },
-     "Administrator": {
-      "string": ["管理者画面"]
-     },
-     "DR_title": {
-      "string": ["DR発動振分画面"]
-     },
-    "message": {
-      "string": ["詳細"]
-     }
-    }
-  
+  }
 }
-
