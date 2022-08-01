@@ -24,8 +24,9 @@
   },
   
     "Comment": {
-     "id": 1
-     ,
+     "id": {
+      "string": ["1"]
+     },
      "Administrator": {
       "string": ["管理者画面"]
      },
