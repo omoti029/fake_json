@@ -50,9 +50,6 @@
    "Resource": {
      "deviceID": {
       "regexp": "[1-9]{6}"
-    },
-     "status": {
-      "regexp":  { "boolean": {} } 
     }
    }
   
