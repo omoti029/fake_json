@@ -49,7 +49,7 @@
   
    "Resource": {
      "deviceID": {
-      "regexp": "[1-9]{6}"
+      "regexp": "[1-9][A-Z]{7}"
     }
    }
   
